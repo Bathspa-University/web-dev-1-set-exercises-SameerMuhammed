@@ -1,0 +1,96 @@
+/*styling for the body*/
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+/* styling for the respective tags*/
+header, nav, main, footer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #28afd8;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+nav {
+    background-color: #07809e;
+    color: white;
+}
+/*styling for the unordered list in nav*/
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+/* styling for main*/
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+
+.left-column, .center-column, .right-column {
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.left-column {
+    background-color: #badbe8;
+}
+
+.center-column {
+    background-color: #2cc2d9;
+}
+
+.right-column {
+    background-color: #ced8d8;
+}
+
+footer {
+    background-color: #168ee9;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    right: 0;
+}
+img{
+    position:relative;
+    left: 0;
+    right: 0;
+}
+/* styling for the button*/
+button{ background-color: #007bff; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+/* hover effects given for hovering over the button*/
+button:hover {
+    background-color: #0056b3; 
+}
+

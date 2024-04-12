@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Color Guessing Game</title>
+    <!-- external css file linked for styling-->
+    <link rel="stylesheet" href="rgb.css">
+</head>
+<body>
+    <!-- heading for the rgb game-->
+    <h1>RGB Color Guessing Game</h1>
+    <br>
+    <!-- paragraph for displaying the rgb colors-->
+    <p id="ColorName">(R, G, B)</p>
+    <!--p for displaying the remaining lives-->
+    <p id="lives">Lives: 3</p>
+    <!-- container for color btns-->
+    <div id="box">
+        <!-- btns for color 1,2 and 3-->
+        <button class="btn" id="0" onclick="guess()"></button>
+        <button class="btn" id="1" onclick="guess()"></button>
+        <button class="btn" id="2" onclick="guess()"></button>
+    </div>
+    <div id="retry">
+        <!-- replay button to start a new game-->
+        <button id="replay" onclick="replay()">Replay</button>
+    </div>
+    <!-- external javascript file linked for functioning-->
+    <script src="rgb.script.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+/* applied the font family to all the elements to match the theme font of the show*/
+*{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+/* setted backgorund image and made it to cover the entire background*/
+body{
+    background-image: url(chp2_images/breakingbad.jpeg);
+    background-size:cover ;
+}
+/*styling for header*/
+.header{    
+    nav{
+    display: flex;
+    padding: 4% 4%;
+    align-items: center;
+}
+/* styling for nav links*/
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+
+.nav-links ul li{
+    list-style:none;
+    display: inline-block;
+    padding: 6px 12px;
+    position:relative;
+    margin: 15px;
+}
+
+.nav-links ul li a{
+    color: darkgreen;
+    text-decoration: none;
+    font-size: 35px;
+}
+/* styling for hover effects on navigationn links */
+.nav-links ul li::after{
+    content: '';
+    width: 0px;
+    height:2px;
+    background: darkgreen;
+    display: block;
+    margin: auto;
+    transition:1s;
+}
+.nav-links ul li:hover::after{
+    width: 100px;
+}
+
+.content{
+    color: darkgreen;
+    position: absolute;
+    text-align: center;
+    left: 50px;
+    }
+.content h1{
+    font-size: 75px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    display: inline-block;
+
+}
+.content h3{
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+}
+.content p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: left;
+    color: white;
+}
+/* styling for second content*/
+.content2 {
+    color: darkgreen;
+    position: absolute;
+    text-align: center;
+    left: 50px;
+}
+.content2 h1{
+    font-size: 75px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.content2 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+    color: black;
+    background-color: white;
+
+}
+/* style for the table*/
+table {
+    width: 600%; 
+    border-collapse: collapse;
+    border: 2px solid white; 
+    background-color: wheat;
+}
+th, td {
+    border: 1px solid white; 
+    padding: 8px;
+    text-align: center;
+    background-color: wheat;
+}
+/* style for 2nd table*/
+.table2 table{
+    width: 400%; 
+    border-collapse: collapse;
+    border: 2px solid white; 
+    background-color: wheat;
+
+}
+

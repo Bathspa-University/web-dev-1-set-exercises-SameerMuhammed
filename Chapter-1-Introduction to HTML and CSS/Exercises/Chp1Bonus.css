@@ -1,0 +1,45 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+/* used styling for body margin and padding kept at 0*/
+header {
+    background-color: #2dcfde;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* used box-shadow for section which gives shadow to the box*/
+h1, h2 {
+    text-decoration: underline solid;
+    color: #333;
+    margin-bottom: 10px;
+}
+/*used text-decoration for h1 and h2 and gave an underline to them*/
+pre {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    text-decoration: underline solid blue;
+}
+/* used overflow-x to handle the horizontal overflow in pre*/
+code {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #333;
+}

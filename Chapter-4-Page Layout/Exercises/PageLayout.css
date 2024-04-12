@@ -1,0 +1,84 @@
+/* Applies bg color to all the elements*/
+*{
+    background-color: rgb(22, 17, 49);}
+/* styling for the header*/
+header{
+    display: flex ;
+    justify-content: center;
+    text-decoration: underline solid white;
+    font-size: 40px;
+    color: white;
+    font-family: "Tahoma", 700;
+}
+/* styling for the navigation*/
+nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+/* styling for the list items*/
+nav li{
+    flex: 0cqmin;
+    display: flex ;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+/* styling for the section*/
+section{
+    display: flex;
+    color: white;
+}
+/* styling for the h1*/
+h1{
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+    margin-bottom: 0;
+    padding: 20px;
+}
+/* styling for the article*/
+article{
+    background-color: white;
+    color: black;
+    font-family: "Arial", 400;
+    padding: 20px;
+}
+
+.main img{
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 0%;
+}
+
+h2{
+    background-color: darkblue;
+    text-decoration: underline;
+}
+/* styling for the aside*/
+aside{
+    padding: 20px;
+    color: white;
+    background-color: darkblue;
+    margin-right: 0%;
+    margin-bottom: 0%;
+}
+/* styling for unordered lis in the aside*/
+aside ul{
+    list-style-type: square;
+    background-color: darkblue;
+}
+/* styling for the images inside the aside*/
+aside img{
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: top;
+}
+/* styling for the footer*/
+footer{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+

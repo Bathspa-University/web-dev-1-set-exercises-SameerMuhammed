@@ -1,0 +1,27 @@
+
+h1{text-align: center;
+   color: white;
+   text-decoration: underline solid white 2px ;}
+/*styling for h1*/   
+   
+.stadiums{
+    display: block ;
+    border: 1px double white;
+    margin: 10px;
+}
+/* styling for stadiums*/
+.stadiums:hover{
+    border: 1px solid greenyellow;
+}
+/* hover effects given for hovering over stadium box*/
+.stadiums img{
+    filter: grayscale(10%);
+}
+.stadiums .content{
+    color: beige;
+    text-align: center;
+}
+.stadiums .paragraph{
+    color: beige;
+    text-align: center;
+}

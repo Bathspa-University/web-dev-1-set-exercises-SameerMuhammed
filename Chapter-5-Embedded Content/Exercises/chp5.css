@@ -1,0 +1,68 @@
+/* styling for the body*/
+body {
+    background-color: #f0f0f0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-image: url('chp5_bg.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    gap: 10px; 
+    padding: 20px;
+    
+}
+/* styling for the h1*/
+h1 {
+    color: #333;
+    border: #f0f0f0 solid;
+    padding: 20px;
+    margin: 40px;
+    background-color: white;
+    text-decoration: underline;
+}
+/* styling for the soundboard*/
+.soundboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* styling for the sample*/
+.sample {
+    padding: 10px 20px;
+    background-color: #feffff;
+    color: white;
+    border-color:blue ;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+/* hover effects added to the sample*/
+.sample:hover {
+    background-color: #e40404;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.number {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0b0707;
+}
+
+.name {
+    margin-top: 5px;
+    color: #0b0707;
+    font-size: 20px;
+}
+
+.frequency {
+    margin-top: 5px;
+    font-size: 15px;
+    color: #0b0707;
+}

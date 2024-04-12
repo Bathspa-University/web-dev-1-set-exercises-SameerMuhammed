@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- link to external css file-->
+    <link rel="stylesheet" href="chp5_advanced.css">
+</head>
+<body>
+    <div class="audio-sampler">
+        
+        <div class="text-to-speech">
+            <h1>Text to Speech</h1>
+            <textarea id="text-to-speech-input" placeholder="Type here"></textarea>
+            <button id="text-to-speech-button">Say it</button>
+            <audio id="text-to-speech-audio"></audio>
+        </div>
+        <!-- Sample bank 1-->
+        <div class="audio-samples-container">
+        <h1>Sample Bank 1</h1>
+        <div class="audio-samples">
+           <!-- sample btns with audio-->
+           <!-- i gave a number the name and frequency for everry button-->
+                <button class="sample" data-src="chp5_audio_files/audio1.mp3">
+                    <span class="number">1.</span> 
+                    <span class="name"><br>Ah-Ha</span>
+                    <span class="frequency"><br> (1.4)</span>
+                    <audio class="audio" src="chp5_audio_files/audio1.mp3"></audio>
+                </button>
+                <button class="sample" data-src="chp5_audio_files/audio2.mp3">
+                    <span class="number">2.</span> 
+                    <span class="name"><br>Dan</span>
+                    <span class="frequency"><br>(0.5)</span>
+                    <audio class="audio" src="chp5_audio_files/audio2.mp3"></audio>
+                </button>
+                <button class="sample" data-src="chp5_audio_files/audio3.mp3">
+                    <span class="number">3.</span> 
+                    <span class="name"><br>Back of the net</span>
+                    <span class="frequency"><br> (1.02)</span>
+                    <audio class="audio" src="chp5_audio_files/audio3.mp3"></audio>
+                </button>
+                <button class="sample" data-src="chp5_audio_files/audio4.mp3">
+                    <span class="number">4.</span> 
+                    <span class="name"><br>Bang out of order</span>
+                    <span class="frequency"><br> (1.38)</span>
+                    <audio class="audio" src="chp5_audio_files/audio4.mp3"></audio>
+                </button>
+                <button class="sample" data-src="chp5_audio_files/audio5.mp3">
+                    <span class="number">5.</span> 
+                    <span class="name"><br>Jurassic Park</span>
+                    <span class="frequency"><br> (1.49)</span>
+                    <audio class="audio" src="chp5_audio_files/audio5.mp3"></audio>
+                </button>
+                <button class="sample" data-src="chp5_audio_files/audio6.mp3">
+                    <span class="number">6.</span> 
+                    <span class="name"><br>Smell my cheese</span>
+                    <span class="frequency"> <br>(1.91)</span>
+                    <audio class="audio" src="chp5_audio_files/audio6.mp3"></audio>
+                </button>
+                <button class="sample" data-src="chp5_audio_files/audio7.mp3">
+                    <span class="number">7.</span> 
+                    <span class="name"><br>Goal</span>
+                    <span class="frequency"> <br>(1.49)</span>
+                    <audio class="audio" src="chp5_audio_files/audio7.mp3"></audio>
+                </button>
+                <button class="sample" data-src="chp5_audio_files/audio8.mp3">
+                    <span class="number">8.</span> 
+                    <span class="name"><br>Kiss my Face</span>
+                    <span class="frequency"> <br>(1.07)</span>
+                    <audio class="audio" src="chp5_audio_files/audio8.mp3"></audio>
+                </button>
+                <button class="sample" data-src="chp5_audio_files/audio9.mp3">
+                    <span class="number">9.</span> 
+                    <span class="name"><br>Hello Partridge</span>
+                    <span class="frequency"><br> (2.25)</span>
+                    <audio class="audio" src="chp5_audio_files/audio9.mp3"></audio>
+                </button>
+            
+        </div>
+        </div>
+        <!-- Sample bank 2-->
+        <div class="audio-samples-container">
+            <h1>Sample Bank 2</h1>
+            <div class="audio-samples">
+                <!-- i gave a number the name and frequency for everry button-->
+                <button class="sample" data-src="chp5_audio_files/audio1.mp3">
+                    <span class="number">10.</span> 
+                    <span class="name"><br>Sing</span>
+                    <span class="frequency"><br> (2.4)</span>
+                    <audio class="audio" src="chp5_audio_files/audio1.mp3"></audio>
+                </button>
+                <button class="sample" data-src="chp5_audio_files/audio2.mp3">
+                    <span class="number">12.</span> 
+                    <span class="name"><br>Let it go</span>
+                    <span class="frequency"><br>(3.5)</span>
+                    <audio class="audio" src="chp5_audio_files/audio2.mp3"></audio>
+                </button>
+                <button class="sample" data-src="chp5_audio_files/audio3.mp3">
+                    <span class="number">13.</span> 
+                    <span class="name"><br>Let her go</span>
+                    <span class="frequency"><br> (1.32)</span>
+                    <audio class="audio" src="chp5_audio_files/audio3.mp3"></audio>
+                </button>
+                <button class="sample" data-src="chp5_audio_files/audio4.mp3">
+                    <span class="number">14.</span> 
+                    <span class="name"><br>Havana</span>
+                    <span class="frequency"><br> (5.38)</span>
+                    <audio class="audio" src="chp5_audio_files/audio4.mp3"></audio>
+                </button>
+                <button class="sample" data-src="chp5_audio_files/audio5.mp3">
+                    <span class="number">15.</span> 
+                    <span class="name"><br>Stitches</span>
+                    <span class="frequency"><br> (7.49)</span>
+                    <audio class="audio" src="chp5_audio_files/audio5.mp3"></audio>
+                </button>
+                <button class="sample" data-src="chp5_audio_files/audio6.mp3">
+                    <span class="number">16.</span> 
+                    <span class="name"><br>Never back down</span>
+                    <span class="frequency"> <br>(1.09)</span>
+                    <audio class="audio" src="chp5_audio_files/audio6.mp3"></audio>
+                </button>
+                <button class="sample" data-src="chp5_audio_files/audio7.mp3">
+                    <span class="number">17.</span> 
+                    <span class="name"><br>Ghosted</span>
+                    <span class="frequency"> <br>(3.49)</span>
+                    <audio class="audio" src="chp5_audio_files/audio7.mp3"></audio>
+                </button>
+                <button class="sample" data-src="chp5_audio_files/audio8.mp3">
+                    <span class="number">18.</span> 
+                    <span class="name"><br>Sign</span>
+                    <span class="frequency"> <br>(8.07)</span>
+                    <audio class="audio" src="chp5_audio_files/audio8.mp3"></audio>
+                </button>
+                <button class="sample" data-src="chp5_audio_files/audio9.mp3">
+                    <span class="number">19.</span> 
+                    <span class="name"><br>Broken</span>
+                    <span class="frequency"><br> (6.25)</span>
+                    <audio class="audio" src="chp5_audio_files/audio9.mp3"></audio>
+                </button>
+            </div>
+        </div>
+    </div>
+
+        
+        <div class="navigation">
+            <button id="prev-page">Left Page</button>
+            <button id="next-page">Right Page</button>
+        </div>
+    </div>
+    <!-- link to external javascript file-->
+    <script src="chp5_advanced.script.js"></script>
+</body>
+</html>

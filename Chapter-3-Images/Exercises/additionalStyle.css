@@ -1,0 +1,14 @@
+/* divC and divD are kept in this css shows multiple css files can be connected with a single HTML*/
+.divC{
+    border-color: lightsalmon;
+    border: 4px solid rgba(228, 151, 9, 0.959);
+    box-shadow: 0 0 0 10px blue, 0 0 0 20px red, 0 0 0 30px green;
+    border-radius: 19px;
+  }
+
+  
+
+  .divD{
+    text-shadow:7px 7px 0px black;
+    border-color: maroon ;
+  }

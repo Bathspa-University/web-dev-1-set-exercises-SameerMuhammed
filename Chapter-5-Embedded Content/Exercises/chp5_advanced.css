@@ -1,0 +1,99 @@
+/*styling for body*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url('chp5_bg.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+/*styling for audio sampler*/
+.audio-sampler {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+/*styling for text to speech*/
+.text-to-speech {
+    flex: 1;
+    margin-right: 20px;
+}
+/*styling for textarea in text to speech*/
+.text-to-speech textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px; 
+}
+
+.audio-samples {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.audio-samples-container h1{
+    text-align: center;
+}
+.sample {
+    padding: 10px 20px;
+    background-color: #feffff;
+    color: white;
+    border-color:blue ;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, transform 0.3s;
+    border: black solid;
+    font-size: 20px;
+    padding: 20px;
+}
+/*hover effects added when hovering over the samples*/
+.sample:hover {
+    background-color: #0ab3e2;
+    color: #fff;
+    transform: scale(1.05);
+}
+/* styling for nav*/
+.navigation {
+    flex: 1;
+    display:inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+.number {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0b0707;
+}
+
+.name {
+    margin-top: 5px;
+    color: #0b0707;
+    font-size: 20px;
+}
+
+.frequency {
+    margin-top: 5px;
+    font-size: 15px;
+    color: #0b0707;
+}
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 5px; 
+}
+
